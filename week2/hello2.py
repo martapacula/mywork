@@ -3,4 +3,7 @@
 # Prints out Hello and the indicated name
 
 name = input("Enter your name: ")
-print(f"Hello {name}")
+print(f"Hello {name}\nNice to meet you")
+
+
+
