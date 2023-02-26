@@ -2,9 +2,13 @@
 #name = input("What's your name")
 #print(f"Your name is {name}")
 
-age = int(input("and your age please?"))
-age = age + 1
-print(f"You'll be {age}")
+#age = int(input("and your age please?"))
+#age = age + 1
+#print(f"You'll be {age}")
+
+test = float(input("your age? "))
+print(f"your age is {test}")
+
 
 
 
