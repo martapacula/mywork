@@ -1,0 +1,13 @@
+#grades
+percentage = int(input("enter your grade: "))
+
+if percentage < 40: # we know it is greater than 0
+ print ("Fail")
+elif percentage < 50: # between 40 and 49
+ print ("Pass")
+elif percentage < 60: # between 50 and 59
+ print ("Merit1")
+elif percentage < 70: # between 60 and 69
+ print ("Merit2")
+else: # the only option left is between 70 and 100
+ print ("Distinction")
